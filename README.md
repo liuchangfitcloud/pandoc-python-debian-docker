@@ -34,6 +34,7 @@ docker build -t pandoc-converter .
 ```bash
 docker run -p 5000:5000 pandoc-converter
 ```
+如果要挂载出来就文件夹/app/uploads映射即可
 
 ## Usage
 
